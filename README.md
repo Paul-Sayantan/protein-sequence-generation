@@ -17,7 +17,7 @@ For a detailed explanation of our methods and findings, check out the full paper
 Download this folder Embeddingmodel_picklefile.<br>
 Use the tensorflow version 2.13 and cuda 12.8.<br>
 Use any generic fasta file of protein sequences of maximum length 1024 amino acids.<br>
-Run the GrantPaperMakeData.ipynb to generate the required matrices f-matrix and f-matrix embedded.<br>
+Run the GrantPaperMakeData.ipynb for pre-processing the data from the fasta file.<br>
 Run the GrantPaperModel.ipynb to train the model.<br>
 Once model is trained use the model to generate variations of any natural sequences of maximum length of 1024 amino acids.<br>
 
