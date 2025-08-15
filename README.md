@@ -2,11 +2,12 @@
 This project explores generative deep learning models for synthetic protein sequence generation. Using the UniProt database, we trained and evaluated several architectures—including dense and convolutional autoencoders, plus their variational forms.
 Our best-performing model, a convolutional variational autoencoder, achieved the lowest reconstruction error. We found that latent space size (condensation level) strongly affects sequence identity and diversity. At 80% condensation, the model generates diverse yet biologically meaningful protein variants.
 
-This repository includes:
-Model training and generation notebooks
-Preprocessing scripts
-Example datasets
-Instructions for reproducing results and generating new sequences
+This repository includes:<br>
+Model training and generation notebooks<br>
+Preprocessing scripts<br>
+Example datasets<br>
+Instructions for reproducing results and generating new sequences<br>
+
 Generative AI holds strong promise for advancing protein engineering—and this repo is your starting point.<br>
 
 ### Paper
