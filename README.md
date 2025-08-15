@@ -19,7 +19,11 @@ Generative AI holds strong promise for advancing protein engineering—and this 
 For a detailed explanation of our methods and findings, check out the full paper:<br>
 **[Download PDF](./protein_generation.pdf)**
 
-**Instructions**
+**Instructions**<br>
+Download this folder Embeddingmodel_picklefile.
+Use the tensorflow version 2.13 and cuda 12.8.
 Use any generic fasta file of protein sequences of maximum length 1024 amino acids.
-Run the 
+Run the GrantPaperMakeData.ipynb to generate the required matrices f-matrix and f-matrix embedded.
+Run the GrantPaperModel.ipynb to train the model.
+Once model is trained use the model to generate variations of any natural sequences of maximum length of 1024 amino acids.
 
