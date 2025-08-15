@@ -18,3 +18,8 @@ Generative AI holds strong promise for advancing protein engineering—and this 
 **Paper**<br>
 For a detailed explanation of our methods and findings, check out the full paper:<br>
 **[Download PDF](./protein_generation.pdf)**
+
+**Instructions**
+Use any generic fasta file of protein sequences of maximum length 1024 amino acids.
+Run the 
+
