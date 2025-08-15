@@ -40,7 +40,7 @@ The pretrained model is hosted on Hugging Face:
 from huggingface_hub import hf_hub_download
 from tensorflow import keras
 
-# Download model file (adjust filename if needed)
+# Download model file
 model_path = hf_hub_download(
     repo_id="Sayantan-95/ConvVAE1024_Condensed1500_128_k3",
     filename="model.h5"  # or the main .pb/.h5 file inside your repo
