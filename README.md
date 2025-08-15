@@ -11,7 +11,7 @@ Instructions for reproducing results and generating new sequences<br>
 Generative AI holds strong promise for advancing protein engineering—and this repo is your starting point.<br>
 
 ### Paper
-For a detailed explanation of our methods and findings, check out the full paper:<br>
+For an in-depth overview of our methodology and results, refer to the full paper accepted for publication in IEEE Conference on the Intelligent Methods, Systems, and Applications (IMSA):<br>
 **[Download PDF](./protein_generation.pdf)**
 
 ### Instructions for training a model
