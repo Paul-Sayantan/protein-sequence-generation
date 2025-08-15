@@ -20,10 +20,34 @@ For a detailed explanation of our methods and findings, check out the full paper
 **[Download PDF](./protein_generation.pdf)**
 
 **Instructions**<br>
-Download this folder Embeddingmodel_picklefile.
-Use the tensorflow version 2.13 and cuda 12.8.
-Use any generic fasta file of protein sequences of maximum length 1024 amino acids.
-Run the GrantPaperMakeData.ipynb to generate the required matrices f-matrix and f-matrix embedded.
-Run the GrantPaperModel.ipynb to train the model.
-Once model is trained use the model to generate variations of any natural sequences of maximum length of 1024 amino acids.
+Download this folder Embeddingmodel_picklefile.<br>
+Use the tensorflow version 2.13 and cuda 12.8.<br>
+Use any generic fasta file of protein sequences of maximum length 1024 amino acids.<br>
+Run the GrantPaperMakeData.ipynb to generate the required matrices f-matrix and f-matrix embedded.<br>
+Run the GrantPaperModel.ipynb to train the model.<br>
+Once model is trained use the model to generate variations of any natural sequences of maximum length of 1024 amino acids.<br>
 
+### 🔗 Download Pretrained Model
+
+Use the notebook GrantPaperModel.ipynb
+
+The pretrained model is hosted on Hugging Face:
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/Sayantan-95/ConvVAE1024_Condensed1500_128_k3)
+
+### 📦 Load the Model in Python
+
+```python
+from huggingface_hub import hf_hub_download
+from tensorflow import keras
+
+# Download model file (adjust filename if needed)
+model_path = hf_hub_download(
+    repo_id="Sayantan-95/ConvVAE1024_Condensed1500_128_k3",
+    filename="model.h5"  # or the main .pb/.h5 file inside your repo
+)
+
+# Load with Keras
+model = keras.models.load_model(model_path)
+
+# Use model for sequence generation
+# ...
