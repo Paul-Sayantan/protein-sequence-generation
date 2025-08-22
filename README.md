@@ -38,7 +38,7 @@ from tensorflow import keras
 # Download model file
 model_path = hf_hub_download(
     repo_id="Sayantan-95/ConvVAE1024_Condensed1500_128_k3",
-    filename="model.h5"  # or the main .pb/.h5 file inside your repo
+    filename="model.h5"
 )
 
 # Load with Keras
