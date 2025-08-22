@@ -1,6 +1,3 @@
-### Created on Jan 15, 2024
-### @author: Dr. Hani Z. Girgis, Bioinformatics Toolsmith Laboratory, Texas A&M University-Kingsville
-
 import numpy as np
 import multiprocessing
 import math
